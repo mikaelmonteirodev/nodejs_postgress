@@ -1,4 +1,4 @@
-ARG VARIANT="18.16.0"
+ARG VARIANT="18"
 FROM mcr.microsoft.com/devcontainers/javascript-node:0-${VARIANT}
 
 # [Optional] Uncomment this section to install additional OS packages.
