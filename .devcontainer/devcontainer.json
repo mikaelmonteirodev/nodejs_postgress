@@ -6,7 +6,6 @@
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 
-
 	// Configure tool-specific properties.
 	"customizations": {
 		
@@ -14,7 +13,7 @@
 		"vscode": {
 			"extensions": [
         "esbenp.prettier-vscode",
-				"ckolkman.vscode-postgres"
+				"cweijan.vscode-postgresql-client2"
 			]
 		}
 	},
@@ -23,7 +22,7 @@
 	"forwardPorts": [5432, 3000],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "node -v"
+	"postCreateCommand": "node --version"
 
 	// Configure tool-specific properties.
 	// "customizations": {},
